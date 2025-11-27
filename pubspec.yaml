@@ -1,0 +1,40 @@
+name: esya_terapisi
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+2 #2 yollandı 3 yollanacak.
+
+environment:
+  sdk: ^3.10.0-290.4.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  scratcher: ^2.5.0
+  audioplayers: ^6.0.0
+  # --- EKLENEN PAKETLER ---
+  google_mobile_ads: ^5.1.0  # Reklamlar için
+  shared_preferences: ^2.2.2 # Ayarları kaydetmek için
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  # Varlıklar (Assets)
+  assets:
+    - assets/images/
+    - assets/sounds/
+
+# İkon Ayarları
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+  min_sdk_android: 21
