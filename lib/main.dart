@@ -412,7 +412,7 @@ class _GameScreenState extends State<GameScreen> with WidgetsBindingObserver {
     {"title": "Bölüm 17: Oyun Kolu", "dirty": "assets/images/camur_doku.jpg", "clean": "assets/images/gamekontroller.jpg"},
     {"title": "Bölüm 18: Klavye", "dirty": "assets/images/camur_doku.jpg", "clean": "assets/images/klavye.jpg"},
     {"title": "Bölüm 19: Hoparlör", "dirty": "assets/images/camur_doku.jpg", "clean": "assets/images/speaker.jpg"},
-    {"title": "Bölüm 20: Kulaklık", "dirty": "assets/images/camur_doku.jpg", "clean": "assets/images/kulaklık.jpg"},
+    {"title": "Bölüm 20: Kulaklık", "dirty": "assets/images/camur_doku.jpg", "clean": "assets/images/kulaklik.jpg"},
   ];
 
   @override

@@ -2,7 +2,7 @@ name: esya_terapisi
 description: "A new Flutter project."
 publish_to: 'none'
 
-version: 1.0.0+2 #2 yollandı 3 yollanacak.
+version: 1.0.0+4 #4 yollandı 5 yollanacak.
 
 environment:
   sdk: ^3.10.0-290.4.beta
